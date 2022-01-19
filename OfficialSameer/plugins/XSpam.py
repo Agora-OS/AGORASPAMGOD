@@ -19,9 +19,9 @@ import os
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from OfficialSameer import SAM, SAM2, SAM3, SAM4, SAM5 , SAM6, SAM7, SAM8, SAM9, SAM10, SAM11, SAM12, SAM13, SAM14, SAM15, SAM16, SAM17, SAM18, SAM19, SAM20, SAM21, SAM22, SAM23, SAM24, SAM25, SAM26, SAM27, SAM28, SAM29, SAM30, SAM31, SAM32, SAM33, SAM34, SAM35, SAM36, SAM37, SAM38, SAM39, SAM40, SUDO_USERS
+from AgoraProgessor import AGORA, AGORA2, AGORA3, AGORA4, AGORA5 , AGORA6, AGORA7, AGORA8, AGORA9, AGORA10, AGORA11, AGORA12, AGORA13, AGORA14, AGORA15, AGORA16, AGORA17, AGORA18, AGORA19, AGORA20, AGORA21, AGORA22, AGORA23, AGORA24, AGORA25, AGORA26, AGORA27, AGORA28, AGORA29, AGORA30, AGORA31, AGORA32, AGORA33, AGORA34, AGORA35, AGORA36, AGORA37, AGORA38, AGORA39, AGORA40, SUDO_USERS
 from .. import CMD_HNDLR as hl
-from resources.data import DEADLYSPAM, PORMS, GROUP
+from resources.data import AGORASPAM, PORMS, GROUP
 
 
 # spam
@@ -135,40 +135,40 @@ async def spam(e):
 
 #abuse
 
-@SAM.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM2.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM3.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM4.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM5.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM6.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM7.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM8.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM9.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM10.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM11.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM12.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM13.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM14.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM15.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM16.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM17.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM18.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM19.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
-@SAM20.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA2.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA3.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA4.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA5.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA6.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA7.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA8.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA9.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA10.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA11.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA12.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA13.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA14.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA15.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA16.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA17.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA18.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA19.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
+@AGORA20.on(events.NewMessage(incoming=True, pattern=r"\%sdmspam" % hl))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = **DM Spam**\n\nCommand:\n\n.dmspam <count> <username> <message to spam>\n\n.dmspam <count> <username> <reply to a message>\n\nCount must be a integer."
     if e.sender_id in SUDO_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        Deadly = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 2)
-        Deadlysexy = Deadly[1:]
+        Agora = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 2)
+        Agorasexy = Agora[1:]
         smex = await e.get_reply_message()
-        if len(Deadlysexy) == 2:
-            user = str(Deadlysexy[0])
+        if len(Agorasexy) == 2:
+            user = str(Agorasexy[0])
             a = await e.client.get_entity(user)
             g = a.id
-            if int(g) in DEADLYSPAM:
-                text = f"I can't Dm To @DEADLY_SPAMMER's Owner"
+            if int(g) in AGORASPAM:
+                text = f"I can't Dm To @AGORA_SPAM_OFFICIAL's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -182,17 +182,17 @@ async def spam(e):
                         await e.client.send_message(g, message)
                         await asyncio.sleep(0.3)
         elif e.reply_to_msg_id and smex.media:
-            user = str(Deadlysexy[0])
+            user = str(Agorasexy[0])
             a = await e.client.get_entity(user)
             g = a.id
-            if int(g) in DEADLYSPAM:
-                text = f"I can't Dm To @DEADLY_SPAMMER's Owner"
+            if int(g) in AGORASPAM:
+                text = f"I can't Dm To @AGORA_SPAM_OFFICIAL's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This guy is a sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:           
-                 counter = int(Deadly[0])
+                 counter = int(Agora[0])
                  await e.reply("☢️ Dm Spam Started ☢️")
                  for _ in range(counter):
                      async with e.client.action(g, "document"):
@@ -201,11 +201,11 @@ async def spam(e):
                         await asyncio.sleep(0.3)  
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
-            user = str(Deadlysexy[0])
+            user = str(Agorasexy[0])
             a = await e.client.get_entity(user)
             g = a.id
-            if int(g) in DEADLYSPAM:
-                text = f"I can't Dm To @Deadly_SpamMER's Owner"
+            if int(g) in AGORASPAM:
+                text = f"I can't Dm To @AGORA_SPAM_OFFICIAL's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
                 text = f"This guy is a sudo user."
@@ -222,53 +222,53 @@ async def spam(e):
 
 # Porn Spam -----
 
-@SAM.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM2.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM3.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM4.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM5.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM6.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM7.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM8.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM9.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM10.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM11.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM12.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM13.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM14.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM15.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM16.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM17.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM18.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM19.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM20.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM21.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM22.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM23.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM24.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM25.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM26.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM27.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM28.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM29.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM30.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM31.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM32.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM33.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM34.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM35.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM36.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM37.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM38.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM39.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
-@SAM40.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA2.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA3.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA4.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA5.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA6.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA7.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA8.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA9.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA10.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA11.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA12.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA13.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA14.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA15.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA16.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA17.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA18.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA19.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA20.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA21.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA22.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA23.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA24.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA25.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA26.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AHORA27.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA28.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA29.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGLRA30.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA31.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA32.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA33.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA34.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA35.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA36.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA37.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA38.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA39.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@AGORA40.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
 async def pspam(e):
     if e.sender_id in SUDO_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        if len(rizoel) == 1:
-            counter = int(rizoel[0])
+        kavyashaan = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(kavyashaan) == 1:
+            counter = int(kavyashaan[0])
             if int(e.chat_id) in GROUP:
                 text = f"Sorry !! I can't spam here"
                 await e.reply(text, parse_mode=None, link_preview=None )
