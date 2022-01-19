@@ -32,8 +32,8 @@
 
 -------------------------------------------------
 
-## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://t.me/XTZ_HEROKUBOT)
+## 🚀 <a href="https://t.me/XTZ_HEROKUBOT"><img src="https://img.shields.io/badge/DEPLOY %20TO%20HEROKU-purple.svg?logo=Telegram"></a>
+[
 ------------------------------------------------
 
 
