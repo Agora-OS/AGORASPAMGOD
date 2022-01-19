@@ -45,5 +45,5 @@
 
 ## credits 
 
-[OP RIZOEL BOT](https://github.com/MrRizoel/RiZoeLXSpam)
-AND [THE RIZOEL](t.me/TheRiZoeL)
+[KANNADIGA FRIENDS CHAT GROUP](t.me/naan_1_kannadiga)
+AND [THE RIZOEL](t.me/TheRiZoeL) AND [PROFESSOR](agoraswamy_professor)
