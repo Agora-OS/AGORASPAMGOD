@@ -19,33 +19,33 @@ import os
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from AgoraProgessor import AGORA, AGORA2, AGORA3, AGORA4, AGORA5 , AGORA6, AGORA7, AGORA8, AGORA9, AGORA10, AGORA11, AGORA12, AGORA13, AGORA14, AGORA15, AGORA16, AGORA17, AGORA18, AGORA19, AGORA20, AGORA21, AGORA22, AGORA23, AGORA24, AGORA25, AGORA26, AGORA27, AGORA28, AGORA29, AGORA30, AGORA31, AGORA32, AGORA33, AGORA34, AGORA35, AGORA36, AGORA37, AGORA38, AGORA39, AGORA40, SUDO_USERS
+from AgoraProfessor import AGORA, AGORA2, AGORA3, AGORA4, AGORA5 , AGORA6, AGORA7, AGORA8, AGORA9, AGORA10, AGORA11, AGORA12, AGORA13, AGORA14, AGORA15, AGORA16, AGORA17, AGORA18, AGORA19, AGORA20, AGORA21, AGORA22, AGORA23, AGORA24, AGORA25, AGORA26, AGORA27, AGORA28, AGORA29, AGORA30, AGORA31, AGORA32, AGORA33, AGORA34, AGORA35, AGORA36, AGORA37, AGORA38, AGORA39, AGORA40, SUDO_USERS
 from .. import CMD_HNDLR as hl
 from resources.data import AGORASPAM, PORMS, GROUP
 
 
 # spam
 
-@SAM.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM2.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM3.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM4.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM5.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM6.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM7.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM8.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM9.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM10.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM11.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM12.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM13.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM14.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM15.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM16.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM17.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM18.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM19.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
-@SAM20.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA2.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA3.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA4.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA5.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA6.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA7.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA8.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA9.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA10.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGKRA11.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA12.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA13.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA14.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA15.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA16.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA17.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA18.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA19.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
+@AGORA20.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
@@ -55,8 +55,8 @@ async def spam(e):
         Deadly = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(Deadly) == 2:
-            message = str(Deadly[1])
-            counter = int(Deadly[0])
+            message = str(Agora[1])
+            counter = int(Agora[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None)
             await asyncio.wait([e.respond(message) for i in range(counter)])
@@ -79,26 +79,26 @@ async def spam(e):
 
 #bigspam
 
-@SAM.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM2.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM3.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM4.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM5.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM6.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM7.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM8.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM9.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM10.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM11.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM12.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM13.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM14.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM15.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM16.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM17.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM18.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM19.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
-@SAM20.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA2.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA3.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA4.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA5.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA6.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA7.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA8.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA9.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA10.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA11.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA12.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA13.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA14.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA15.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA16.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA17.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA18.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA19.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
+@AGORA20.on(events.NewMessage(incoming=True, pattern=r"\%sbigspam" % hl))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
     if e.sender_id in SUDO_USERS:
@@ -107,8 +107,8 @@ async def spam(e):
         Deadly = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
         if len(Deadly) == 2:
-            message = str(Deadly[1])
-            counter = int(Deadly[0])
+            message = str(Agora[1])
+            counter = int(Agora[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
