@@ -28,18 +28,18 @@
 
 -------------------------------------------------
 
-## 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 -[𝚂𝙰𝙼𝙴𝙴𝚁](https://t.me/OFFICIAL_SAMEER)
+## 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 -[𝙿𝚁𝙾𝙵𝙴𝚂𝚂𝙾𝚁](https://t.me/AGORASWAMY_PROFESSOR)
 
 -------------------------------------------------
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DEADLY-FIGHTERS/DEADLYOPHAIIiiCHUTIYAA)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Agora-OS/AGORASPAMGOD)
 ------------------------------------------------
 
 
 𝚃𝙰𝙺𝙴 𝚂𝚃𝚁𝙸𝙽𝙶 𝙵𝚁𝙾𝙼 𝙷𝙴𝚁𝙴 - 
 
-[![REPL](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@Agora-OS/DEADLY-FIGHTERS-BOT#main.py)
+[![REPL](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@Agora-OS/AGORASPAMGOD#main.py)
     
 -------------------------------------------------
 
