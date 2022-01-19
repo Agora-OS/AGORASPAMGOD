@@ -24,7 +24,8 @@
 ## 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 
                           
 <a href="https://t.me/AGORA_SPAM_OFFICIAL"><img src="https://img.shields.io/badge/Join-SUPPORT%20GROUP-yellow.svg?logo=Telegram"></a>
-<a href="https://t.me/AGORA_FIGHTERS"><img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-blue.svg?logo=Telegram"></a>
+  
+<a href="https://t.me/AGORA_FIGHTERS"><img src="https://img.shields.io/badge/Join-SUPPORT%20CHANNEL-yellow.svg?logo=Telegram"></a>
 
 -------------------------------------------------
 
