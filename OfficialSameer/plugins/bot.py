@@ -5,7 +5,7 @@ import base64
 from telethon.errors.rpcerrorlist import UsernameOccupiedError
 from telethon.tl import functions
 from telethon.tl.functions.account import UpdateUsernameRequest
-from OfficialSameer import SAM, SAM2, SAM3, SAM4, SAM5 , SAM6, SAM7, SAM8, SAM9, SAM10, SAM11, SAM12, SAM13, SAM14, SAM15, SAM16, SAM17, SAM18, SAM19, SAM20, SAM21, SAM22, SAM23, SAM24, SAM25, SAM26, SAM27, SAM28, SAM29, SAM30, SAM31, SAM32, SAM33, SAM34, SAM35, SAM36, SAM37, SAM38, SAM39, SAM40, DEV
+from AgoraProfessor import SAM, SAM2, SAM3, SAM4, SAM5 , SAM6, SAM7, SAM8, SAM9, SAM10, SAM11, SAM12, SAM13, SAM14, SAM15, SAM16, SAM17, SAM18, SAM19, SAM20, SAM21, SAM22, SAM23, SAM24, SAM25, SAM26, SAM27, SAM28, SAM29, SAM30, SAM31, SAM32, SAM33, SAM34, SAM35, SAM36, SAM37, SAM38, SAM39, SAM40, DEV
 from .. import CMD_HNDLR as hl
 from telethon import events
 from telethon.tl.types import Channel, Chat, InputPhoto, User
@@ -57,9 +57,9 @@ async def name(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗖𝗛𝗔𝗡𝗚𝗘 𝗡𝗔𝗠𝗘\n\nCommand:\n\n.setname <Message to change name of spam ids>"
     if e.sender_id in DEV:
         names = e.text.split(" ", 1)
-        DEADLYSPAM = names[1]
+        AGORASPAM = names[1]
         if len(e.text) > 5:
-            firstname = DEADLYSPAM
+            firstname = AGORASPAM
             text = "Changing Name..."
             try:
                 await e.client(functions.account.UpdateProfileRequest(first_name=firstname))
@@ -179,7 +179,7 @@ async def stats(event):
    c = 0
    bc = 0
    b = 0
-   DEADLYSPAM = ""
+   AGORASPAM = ""
    if event.sender_id in DEV:    
         await event.delete()
         event = await event.reply("__Processing__.....")
@@ -202,13 +202,13 @@ async def stats(event):
             else:
                 print(d)
          
-        DEADLYSPAM += f"🔻 **HERE IS YOUR DEADLY BOT STATS** 🔻\n\n"
-        DEADLYSPAM += f"`Users:`\t**{u}**\n"
-        DEADLYSPAM += f"`Groups:`\t**{g}**\n"
-        DEADLYSPAM += f"`Super Groups:`\t**{c}**\n"
-        DEADLYSPAM += f"`Channels:`\t**{bc}**\n"
-        DEADLYSPAM += f"`Bots:`\t**{b}**"
-        await event.edit(DEADLYSPAM)    
+        AGORASPAM += f"🔻 **HERE IS YOUR AGORA GANGSTER'S STATS** 🔻\n\n"
+        AGORASPAM += f"`Users:`\t**{u}**\n"
+        AGORASPAM += f"`Groups:`\t**{g}**\n"
+        AGORASPAM += f"`Super Groups:`\t**{c}**\n"
+        AGORASPAM += f"`Channels:`\t**{bc}**\n"
+        AGORASPAM += f"`Bots:`\t**{b}**"
+        await event.edit(AGORASPAM)    
     
     
     
