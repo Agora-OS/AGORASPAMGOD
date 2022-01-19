@@ -33,13 +33,12 @@
 -------------------------------------------------
 
 # 🚀 <a href="https://t.me/XTZ_HEROKUBOT"><img src="https://img.shields.io/badge/𝗗𝗘𝗣𝗟𝗢𝗬 %20𝗧𝗢%20𝗛𝗘𝗥𝗢𝗞𝗨-purple.svg?logo=Telegram"></a>
-[
+<a href="https://t.me/AGORASWAMY_PROFESSOR"><img src="https://img.shields.io/badge/𝗢𝗪𝗡𝗘𝗥-𝗞𝗔𝗩𝗬𝗔%20𝗦𝗛𝗔𝗔𝗡-yellow.svg?logo=Telegram"></a>
 ------------------------------------------------
 
 
 𝚃𝙰𝙺𝙴 𝚂𝚃𝚁𝙸𝙽𝙶 𝙵𝚁𝙾𝙼 𝙷𝙴𝚁𝙴 - 
-
-[![REPL](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@Agora-OS/AGORASPAMGOD#main.py)
+<a href="https://t.me/SESSIONGENERATORBOT"><img src="https://img.shields.io/badge/𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘%20𝗦𝗧𝗥𝗜𝗡𝗚%20𝗦𝗘𝗦𝗦𝗜𝗢𝗡%20-blue.svg?logo=Telegram"></a>
     
 -------------------------------------------------
 
