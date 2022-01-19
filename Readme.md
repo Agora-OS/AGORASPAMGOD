@@ -1,7 +1,7 @@
 # DEADLY SPAMMER
 
 <p align="center">
-  <img src="https://telegra.ph/file/b8e3d5d94082a37b61d8a.jpg">
+  <img src="https://te.legra.ph/file/792fa83b58082149766a9.jpg">
 </p>
 
 
