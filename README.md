@@ -45,5 +45,5 @@
 
 ## credits 
 
-[KANNADIGA FRIENDS CHAT GROUP](t.me/naan_1_kannadiga) AND [KAVYASHAAN](t.me/agoraswamy_professor)
+[KAVYASHAAN](t.me/agoraswamy_professor)
 AND [THE RIZOEL](t.me/TheRiZoeL) AND [PROFESSOR](agoraswamy_professor)
