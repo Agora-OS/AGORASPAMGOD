@@ -1,4 +1,4 @@
 .env
 __pycache__/
-SAM.session
-SAM.session-journal
+AGORA.session
+AGORA.session-journal
