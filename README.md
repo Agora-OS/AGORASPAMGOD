@@ -32,7 +32,7 @@
 
 -------------------------------------------------
 
-## 🚀 <a href="https://t.me/XTZ_HEROKUBOT"><img src="https://img.shields.io/badge/DEPLOY %20TO%20HEROKU-purple.svg?logo=Telegram"></a>
+# 🚀 <a href="https://t.me/XTZ_HEROKUBOT"><img src="https://img.shields.io/badge/𝗗𝗘𝗣𝗟𝗢𝗬 %20𝗧𝗢%20𝗛𝗘𝗥𝗢𝗞𝗨-purple.svg?logo=Telegram"></a>
 [
 ------------------------------------------------
 
