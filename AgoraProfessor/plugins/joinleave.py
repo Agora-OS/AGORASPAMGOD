@@ -57,11 +57,11 @@ async def _(e):
         AGORASPAM = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = AGORASPAM[0]
-            text = "Joining..."
+            text = "ruko join kar rah hu..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Joined Successfully ✅")
+                await event.edit("AB BOL BHAI KISKA MAA CHODNA HAI")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -115,11 +115,11 @@ async def _(e):
         AGORASPAM = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = AGORASPAM[0]
-            text = "Joining...."
+            text = "ruko join kar rah hu...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Joined Successfully (Private Group/channel) ✅")
+                await event.edit("AAJA AB PRIVATLY MAA CHODTE INKE(Private Group/channel) ✅")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -175,11 +175,11 @@ async def _(e):
         if len(e.text) > 7:
             bc = AGORASPAM[0]
             bc = int(bc)
-            text = "Leaving....."
+            text = "WAIT KARNGE 9 MAHINE....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left ☑️")
+                await event.edit("9 MAHINE KE BAAD AYENGE AAJA AB CHALTE☑️")
             except Exception as e:
                 await event.edit(str(e))   
         else:
